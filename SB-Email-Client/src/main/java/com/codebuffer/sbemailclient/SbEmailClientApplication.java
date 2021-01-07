@@ -17,6 +17,7 @@ public class SbEmailClientApplication {
 	private EmailSenderService service;
 	public static void main(String[] args) {
 		SpringApplication.run(SbEmailClientApplication.class, args);
+		System.out.println("");
 	}
 
 	@EventListener(ApplicationReadyEvent.class)
